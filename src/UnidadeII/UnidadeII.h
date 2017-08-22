@@ -24,6 +24,9 @@ int mainVetorEscalar();
 int mainSomaThreads();
 int mainSomaElemVet();
 
+//      Aula 02
+int mainVetThOrd();
+
 #ifdef	__cplusplus
 }
 #endif

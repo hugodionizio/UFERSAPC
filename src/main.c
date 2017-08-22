@@ -25,5 +25,8 @@ int main(int argc, char *argv) {
     printf("Exercício 4 - Soma dos elementos de um vetor:\n");
     mainSomaElemVet();
     
+    printf("Aula 02 - Exercício 4: Vetor ORDERED:\n");
+    mainVetThOrd();
+    
     return (0);
 }
