@@ -35,7 +35,19 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_AdVet.o \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_Single.o \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exempl3_SingleComb.o \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exempl4_ModifXCritical.o \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exerc1_SomSubVet.o \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exerc2_CorridaBarrier.o \
+	${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o \
 	${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o \
+	${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o \
+	${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02VarAmbDouble.o \
+	${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/Exe01NumArbThreads.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o \
 	${OBJECTDIR}/src/UnidadeII/Exemp1_Estrutura.o \
 	${OBJECTDIR}/src/UnidadeII/Exemp2_HelloWorld.o \
 	${OBJECTDIR}/src/UnidadeII/Exemp3_ProdVet.o \
@@ -71,10 +83,70 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ufersapc.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ufersapc ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_AdVet.o: src/UnidadeII/Aula02/Exempl1_AdVet.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_AdVet.o src/UnidadeII/Aula02/Exempl1_AdVet.c
+
+${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_Single.o: src/UnidadeII/Aula02/Exempl1_Single.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_Single.o src/UnidadeII/Aula02/Exempl1_Single.c
+
+${OBJECTDIR}/src/UnidadeII/Aula02/Exempl3_SingleComb.o: src/UnidadeII/Aula02/Exempl3_SingleComb.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl3_SingleComb.o src/UnidadeII/Aula02/Exempl3_SingleComb.c
+
+${OBJECTDIR}/src/UnidadeII/Aula02/Exempl4_ModifXCritical.o: src/UnidadeII/Aula02/Exempl4_ModifXCritical.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl4_ModifXCritical.o src/UnidadeII/Aula02/Exempl4_ModifXCritical.c
+
+${OBJECTDIR}/src/UnidadeII/Aula02/Exerc1_SomSubVet.o: src/UnidadeII/Aula02/Exerc1_SomSubVet.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc1_SomSubVet.o src/UnidadeII/Aula02/Exerc1_SomSubVet.c
+
+${OBJECTDIR}/src/UnidadeII/Aula02/Exerc2_CorridaBarrier.o: src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc2_CorridaBarrier.o src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c
+
+${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o: src/UnidadeII/Aula02/Exerc3_BuscaVetor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o src/UnidadeII/Aula02/Exerc3_BuscaVetor.c
+
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o: src/UnidadeII/Aula02/Exerc4_VetThrOrd.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o src/UnidadeII/Aula02/Exerc4_VetThrOrd.c
+
+${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o: src/UnidadeII/Aula03/Exemp01VarAmbFor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o src/UnidadeII/Aula03/Exemp01VarAmbFor.c
+
+${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02VarAmbDouble.o: src/UnidadeII/Aula03/Exemp02VarAmbDouble.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02VarAmbDouble.o src/UnidadeII/Aula03/Exemp02VarAmbDouble.c
+
+${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o: src/UnidadeII/Aula03/Exer01_4Threads.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o src/UnidadeII/Aula03/Exer01_4Threads.c
+
+${OBJECTDIR}/src/UnidadeII/Aula04/Exe01NumArbThreads.o: src/UnidadeII/Aula04/Exe01NumArbThreads.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe01NumArbThreads.o src/UnidadeII/Aula04/Exe01NumArbThreads.c
+
+${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o: src/UnidadeII/Aula04/Exe02PedPapTes.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o src/UnidadeII/Aula04/Exe02PedPapTes.c
 
 ${OBJECTDIR}/src/UnidadeII/Exemp1_Estrutura.o: src/UnidadeII/Exemp1_Estrutura.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII

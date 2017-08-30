@@ -12,7 +12,23 @@
       <logicalFolder name="f1" displayName="src" projectFiles="true">
         <logicalFolder name="f1" displayName="UnidadeII" projectFiles="true">
           <logicalFolder name="f1" displayName="Aula02" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula02/Exempl1_AdVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula02/Exempl1_Single.c</itemPath>
+            <itemPath>src/UnidadeII/Aula02/Exempl3_SingleComb.c</itemPath>
+            <itemPath>src/UnidadeII/Aula02/Exempl4_ModifXCritical.c</itemPath>
+            <itemPath>src/UnidadeII/Aula02/Exerc1_SomSubVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c</itemPath>
+            <itemPath>src/UnidadeII/Aula02/Exerc3_BuscaVetor.c</itemPath>
             <itemPath>src/UnidadeII/Aula02/Exerc4_VetThrOrd.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="Aula03" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula03/Exemp01VarAmbFor.c</itemPath>
+            <itemPath>src/UnidadeII/Aula03/Exemp02VarAmbDouble.c</itemPath>
+            <itemPath>src/UnidadeII/Aula03/Exer01_4Threads.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="Aula04" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula04/Exe01NumArbThreads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula04/Exe02PedPapTes.c</itemPath>
           </logicalFolder>
           <itemPath>src/UnidadeII/Exemp1_Estrutura.c</itemPath>
           <itemPath>src/UnidadeII/Exemp2_HelloWorld.c</itemPath>
@@ -55,7 +71,67 @@
           <commandLine>-fopenmp</commandLine>
         </cTool>
       </compileType>
+      <item path="src/UnidadeII/Aula02/Exempl1_AdVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exempl1_Single.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exempl3_SingleComb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exempl4_ModifXCritical.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exerc1_SomSubVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exerc3_BuscaVetor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="src/UnidadeII/Aula02/Exerc4_VetThrOrd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exemp01VarAmbFor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exemp02VarAmbDouble.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exer01_4Threads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/Exe01NumArbThreads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/Exe02PedPapTes.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -101,7 +177,67 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="src/UnidadeII/Aula02/Exempl1_AdVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exempl1_Single.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exempl3_SingleComb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exempl4_ModifXCritical.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exerc1_SomSubVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula02/Exerc3_BuscaVetor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="src/UnidadeII/Aula02/Exerc4_VetThrOrd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exemp01VarAmbFor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exemp02VarAmbDouble.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exer01_4Threads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/Exe01NumArbThreads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/Exe02PedPapTes.c"
             ex="false"
             tool="0"
             flavor2="0">
