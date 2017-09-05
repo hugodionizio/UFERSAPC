@@ -1,6 +1,6 @@
 /* 
  * File:   UnidadeII.h
- * Author: Admin
+ * Author: Hugo Dionizio Santos
  *
  * Created on 9 de Agosto de 2017, 11:38
  */
@@ -45,17 +45,20 @@ int mainVetThOrd();
 // Aula 03
 //  Exemplos
 int mainVarAmbFor();
-int mainVarAmbDouble();
+int mainValorPiArea();
 
 //  Exercícios
 int main4Threads();
+int mainParaleloSemFor();
+int mainMaxComBarreira();
 //  ------------------
 
 
 // Aula 04
 //  Exercícios
-int mainNumArbThreads();
+int mainThreadaMenCol();
 int mainPedPapTes();
+int mainValorPi();
 //  ------------------
 
 

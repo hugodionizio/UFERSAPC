@@ -52,10 +52,13 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o \
 	${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o \
 	${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o \
-	${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02VarAmbDouble.o \
+	${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02ValPiArea.o \
 	${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o \
-	${OBJECTDIR}/src/UnidadeII/Aula04/Exe01NumArbThreads.o \
+	${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o \
+	${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/Exe01ThreadaMenCol.o \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/ValorPi.o \
 	${OBJECTDIR}/src/main.o
 
 
@@ -168,25 +171,40 @@ ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o: src/UnidadeII/Aula03/Exemp
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o src/UnidadeII/Aula03/Exemp01VarAmbFor.c
 
-${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02VarAmbDouble.o: src/UnidadeII/Aula03/Exemp02VarAmbDouble.c 
+${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02ValPiArea.o: src/UnidadeII/Aula03/Exemp02ValPiArea.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02VarAmbDouble.o src/UnidadeII/Aula03/Exemp02VarAmbDouble.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02ValPiArea.o src/UnidadeII/Aula03/Exemp02ValPiArea.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o: src/UnidadeII/Aula03/Exer01_4Threads.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o src/UnidadeII/Aula03/Exer01_4Threads.c
 
-${OBJECTDIR}/src/UnidadeII/Aula04/Exe01NumArbThreads.o: src/UnidadeII/Aula04/Exe01NumArbThreads.c 
+${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o: src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c
+
+${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o: src/UnidadeII/Aula03/Exer03_MaxComBarreira.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o src/UnidadeII/Aula03/Exer03_MaxComBarreira.c
+
+${OBJECTDIR}/src/UnidadeII/Aula04/Exe01ThreadaMenCol.o: src/UnidadeII/Aula04/Exe01ThreadaMenCol.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe01NumArbThreads.o src/UnidadeII/Aula04/Exe01NumArbThreads.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe01ThreadaMenCol.o src/UnidadeII/Aula04/Exe01ThreadaMenCol.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o: src/UnidadeII/Aula04/Exe02PedPapTes.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o src/UnidadeII/Aula04/Exe02PedPapTes.c
+
+${OBJECTDIR}/src/UnidadeII/Aula04/ValorPi.o: src/UnidadeII/Aula04/ValorPi.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/ValorPi.o src/UnidadeII/Aula04/ValorPi.c
 
 ${OBJECTDIR}/src/main.o: src/main.c 
 	${MKDIR} -p ${OBJECTDIR}/src

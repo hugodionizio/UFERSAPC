@@ -1,3 +1,4 @@
+// Código 2 - Jogo "Pedra-Papel-Tesoura"
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>

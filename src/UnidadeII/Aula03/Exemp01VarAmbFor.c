@@ -1,3 +1,4 @@
+// Código 1 - Variáveis de Ambiente com laço
 #include <omp.h>
 #include <stdio.h>
 
@@ -5,8 +6,8 @@
 
 int mainVarAmbFor() {
 	int i;
-
 	float *a, *b, *c, tmp;
+        
 	int n = N;
 	#pragma omp parallel for private(i) default(shared)
 

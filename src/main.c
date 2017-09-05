@@ -30,8 +30,8 @@ int main(int argc, char *argv) {
 
     // Aula 02
     //  Exemplos
-    printf("Aula 02. Exemplo 1 - :\n");
-    //main();
+    printf("Aula 02. Exemplo 1 - Adição de Vetores:\n");
+    mainAdVet();
     printf("Aula 02. Exemplo 2 - Uso diretiva single:\n");
     mainSingle();
     printf("Aula 02. Exemplo 3 - Adição de Vetores usando construções combinadas.:\n");
@@ -46,30 +46,37 @@ int main(int argc, char *argv) {
     mainCorridaBarrier();
     printf("Aula 02. Exercício 3 - Busca em Vetor com threads:\n");
     mainBuscaVetor();
-    printf("Aula 02. Exercício 4 - Vetor ORDERED:\n");
+    printf("Aula 02. Exercício 4 - Vetor com threads ordenado:\n");
     mainVetThOrd();
     //------------------------------------------------------------------------
 
 
     // Aula 03
     //  Exemplos
-    printf("Aula 03. Exemplo 1 - :\n");
+    printf("Aula 03. Exemplo/Exercício 1 - Variáveis de Ambiente com laço:\n");
     mainVarAmbFor();
-    printf("Aula 03. Exemplo 2 - :\n");
-    mainVarAmbDouble();
+    printf("Aula 03. Exemplo/Exercício 2 - Valor de Pi pela Area:\n");
+    mainValorPiArea();
 
     //  Exercícios
-    printf("Aula 03. Exercício 1 - :\n");
+    printf("Aula 03. Exercício 1 - Multiplicação de vetoree e maior elemento:\n");
     main4Threads();
+    printf("Aula 03. Exercício 2 - Programa Paralelo sem For:\n");
+    mainParaleloSemFor("Programa Paralelo sem For");
+    printf("Aula 03. Exercício 3 - Maximização de código com operações de barreira explícitas:\n");
+    mainMaxComBarreira();
+
     //------------------------------------------------------------------------
 
 
     // Aula 04
     //  Exercícios
-    printf("Aula 04. Exercício 1 - :\n");
-    mainNumArbThreads();
-    printf("Aula 04. Exercício 2 - :\n");
+    printf("Aula 04. Exercício 1 - Número de threads menor que de colunas:\n");
+    mainThreadaMenCol();
+    printf("Aula 04. Exercício 2 - Jogo Pedra-Papel-Tesoura:\n");
     mainPedPapTes();
+    printf("Aula 04. Exercício 3 - Valor de Pi através do OpenMP:\n");
+    mainValorPi();
     //------------------------------------------------------------------------
 
 

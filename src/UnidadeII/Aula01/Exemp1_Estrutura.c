@@ -1,4 +1,4 @@
-// Código 1
+// Código 1 - Estrutura de um OpenMP
 #include <stdio.h>
 #include <omp.h>
 

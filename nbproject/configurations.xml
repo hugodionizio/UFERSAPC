@@ -12,6 +12,14 @@
       <logicalFolder name="f1" displayName="src" projectFiles="true">
         <logicalFolder name="f1" displayName="UnidadeII" projectFiles="true">
           <logicalFolder name="f4" displayName="Aula01" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula01/Exemp1_Estrutura.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exemp2_HelloWorld.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exemp3_ProdVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exemp4_AdVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exerc1_5threads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exerc2_Escalar.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exerc3_SomaThreads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula01/Exerc4_SomaElemVet.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f1" displayName="Aula02" projectFiles="true">
             <itemPath>src/UnidadeII/Aula02/Exempl1_AdVet.c</itemPath>
@@ -25,21 +33,16 @@
           </logicalFolder>
           <logicalFolder name="f2" displayName="Aula03" projectFiles="true">
             <itemPath>src/UnidadeII/Aula03/Exemp01VarAmbFor.c</itemPath>
-            <itemPath>src/UnidadeII/Aula03/Exemp02VarAmbDouble.c</itemPath>
+            <itemPath>src/UnidadeII/Aula03/Exemp02ValPiArea.c</itemPath>
             <itemPath>src/UnidadeII/Aula03/Exer01_4Threads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c</itemPath>
+            <itemPath>src/UnidadeII/Aula03/Exer03_MaxComBarreira.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="Aula04" projectFiles="true">
-            <itemPath>src/UnidadeII/Aula04/Exe01NumArbThreads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula04/Exe01ThreadaMenCol.c</itemPath>
             <itemPath>src/UnidadeII/Aula04/Exe02PedPapTes.c</itemPath>
+            <itemPath>src/UnidadeII/Aula04/ValorPi.c</itemPath>
           </logicalFolder>
-          <itemPath>src/UnidadeII/Aula01/Exemp1_Estrutura.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exemp2_HelloWorld.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exemp3_ProdVet.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exemp4_AdVet.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exerc1_5threads.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exerc2_Escalar.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exerc3_SomaThreads.c</itemPath>
-          <itemPath>src/UnidadeII/Aula01/Exerc4_SomaElemVet.c</itemPath>
         </logicalFolder>
         <itemPath>src/main.c</itemPath>
       </logicalFolder>
@@ -158,7 +161,7 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exemp02VarAmbDouble.c"
+      <item path="src/UnidadeII/Aula03/Exemp02ValPiArea.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -168,7 +171,17 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exe01NumArbThreads.c"
+      <item path="src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exer03_MaxComBarreira.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/Exe01ThreadaMenCol.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -177,6 +190,8 @@
             ex="false"
             tool="0"
             flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/ValorPi.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -288,7 +303,7 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exemp02VarAmbDouble.c"
+      <item path="src/UnidadeII/Aula03/Exemp02ValPiArea.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -298,7 +313,17 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exe01NumArbThreads.c"
+      <item path="src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula03/Exer03_MaxComBarreira.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/Exe01ThreadaMenCol.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -307,6 +332,8 @@
             ex="false"
             tool="0"
             flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula04/ValorPi.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>

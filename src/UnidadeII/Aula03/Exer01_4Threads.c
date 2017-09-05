@@ -1,4 +1,4 @@
-// 
+// Código 1 - Multiplicação de vetoree e maior elemento
 #include <omp.h>
 #include <stdio.h>
 

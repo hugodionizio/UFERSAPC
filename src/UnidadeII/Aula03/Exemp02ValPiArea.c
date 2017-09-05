@@ -1,7 +1,8 @@
+// Código 2 - Valor de Pi pela Area
 #include <omp.h>
 #include <stdio.h>
 
-int mainVarAmbDouble() {
+int mainValorPiArea() {
 	double area, pi, x;
 	int i, n;
 

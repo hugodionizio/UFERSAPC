@@ -1,3 +1,4 @@
+// Código 1 - Número de threads menor que de colunas
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -6,7 +7,7 @@
 #define M 10
 #define N 9
 
-int mainNumArbThreads() {
+int mainThreadaMenCol() {
 	int i, j, myid = M, num, n;
 	float a[N][M];
 
