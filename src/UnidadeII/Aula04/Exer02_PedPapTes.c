@@ -15,7 +15,7 @@ int mainPedPapTes() {
 
 	srand(time(NULL));
 
-	printf("Jacken Pô!\n");
+	printf("Jokenpo!\n");
 
 	omp_set_num_threads(2);
 	#pragma omp private(tid) shared(jogador1, jogador2)
