@@ -6,7 +6,7 @@
 #define M 10
 #define N 9
 
-int main () {
+int mainNumArbThreads() {
 	int i, j, myid = M, num, n;
 	float a[N][M];
 

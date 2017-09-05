@@ -11,6 +11,8 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="src" projectFiles="true">
         <logicalFolder name="f1" displayName="UnidadeII" projectFiles="true">
+          <logicalFolder name="f4" displayName="Aula01" projectFiles="true">
+          </logicalFolder>
           <logicalFolder name="f1" displayName="Aula02" projectFiles="true">
             <itemPath>src/UnidadeII/Aula02/Exempl1_AdVet.c</itemPath>
             <itemPath>src/UnidadeII/Aula02/Exempl1_Single.c</itemPath>
@@ -30,14 +32,14 @@
             <itemPath>src/UnidadeII/Aula04/Exe01NumArbThreads.c</itemPath>
             <itemPath>src/UnidadeII/Aula04/Exe02PedPapTes.c</itemPath>
           </logicalFolder>
-          <itemPath>src/UnidadeII/Exemp1_Estrutura.c</itemPath>
-          <itemPath>src/UnidadeII/Exemp2_HelloWorld.c</itemPath>
-          <itemPath>src/UnidadeII/Exemp3_ProdVet.c</itemPath>
-          <itemPath>src/UnidadeII/Exemp4_AdVet.c</itemPath>
-          <itemPath>src/UnidadeII/Exerc1_5threads.c</itemPath>
-          <itemPath>src/UnidadeII/Exerc2_Escalar.c</itemPath>
-          <itemPath>src/UnidadeII/Exerc3_SomaThreads.c</itemPath>
-          <itemPath>src/UnidadeII/Exerc4_SomaElemVet.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exemp1_Estrutura.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exemp2_HelloWorld.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exemp3_ProdVet.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exemp4_AdVet.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exerc1_5threads.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exerc2_Escalar.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exerc3_SomaThreads.c</itemPath>
+          <itemPath>src/UnidadeII/Aula01/Exerc4_SomaElemVet.c</itemPath>
         </logicalFolder>
         <itemPath>src/main.c</itemPath>
       </logicalFolder>
@@ -71,6 +73,46 @@
           <commandLine>-fopenmp</commandLine>
         </cTool>
       </compileType>
+      <item path="src/UnidadeII/Aula01/Exemp1_Estrutura.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exemp2_HelloWorld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exemp3_ProdVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exemp4_AdVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc1_5threads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc2_Escalar.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc3_SomaThreads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc4_SomaElemVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="src/UnidadeII/Aula02/Exempl1_AdVet.c"
             ex="false"
             tool="0"
@@ -135,22 +177,6 @@
             ex="false"
             tool="0"
             flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp1_Estrutura.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp2_HelloWorld.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp3_ProdVet.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp4_AdVet.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc1_5threads.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc2_Escalar.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc3_SomaThreads.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc4_SomaElemVet.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -177,6 +203,46 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="src/UnidadeII/Aula01/Exemp1_Estrutura.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exemp2_HelloWorld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exemp3_ProdVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exemp4_AdVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc1_5threads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc2_Escalar.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc3_SomaThreads.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeII/Aula01/Exerc4_SomaElemVet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="src/UnidadeII/Aula02/Exempl1_AdVet.c"
             ex="false"
             tool="0"
@@ -241,22 +307,6 @@
             ex="false"
             tool="0"
             flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp1_Estrutura.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp2_HelloWorld.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp3_ProdVet.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exemp4_AdVet.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc1_5threads.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc2_Escalar.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc3_SomaThreads.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/UnidadeII/Exerc4_SomaElemVet.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>

@@ -5,7 +5,7 @@
 #include <stdio.h>
 #define N 10
 
-int main() {
+int mainCorridaBarrier() {
 	int i, n, chunk;
 
 	#pragma omp parallel

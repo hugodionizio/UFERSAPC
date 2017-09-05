@@ -3,7 +3,7 @@
 
 #define N 10
 
-int main () {
+int mainVarAmbFor() {
 	int i;
 
 	float *a, *b, *c, tmp;

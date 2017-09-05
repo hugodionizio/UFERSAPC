@@ -5,7 +5,7 @@
 #define N 12
 #define W 3
 
-int main () {
+int main4Threads() {
 	int i, j, k, l, chunk;
 	int v[N], maior;
 	int n, w;

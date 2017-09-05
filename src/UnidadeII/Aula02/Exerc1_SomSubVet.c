@@ -1,4 +1,4 @@
-// Código 1 - Soma e Subtração d dois vetores simultaneamente
+// Código 1 - Soma e Subtração de dois vetores simultaneamente
 
 
 #include <omp.h>
@@ -6,7 +6,7 @@
 
 #define N 10
 
-int main() {
+int mainSomSubVet() {
 	int i, j, n, chunk;
 	int A[N], B[N], C[N], D[N];
 

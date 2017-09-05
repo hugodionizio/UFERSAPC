@@ -3,7 +3,8 @@
 #include <omp.h>
 #include <stdio.h>
 #define N 50
-int main() {
+
+int mainSingle() {
 	int i, n, chunk;
 	float a[N], b[N], c[N];
 	for (i = 0; i < N; i++)

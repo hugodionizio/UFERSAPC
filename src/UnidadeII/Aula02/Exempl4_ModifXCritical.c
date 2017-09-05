@@ -1,7 +1,8 @@
 // Código 4 - Modifica o X utilizando a diretiva Critical.
 #include <omp.h>
 #include <stdio.h>
-int main() {
+
+int mainModifXCritical() {
 	int x;
 	x = 0;
 	#pragma omp parallel shared(x)

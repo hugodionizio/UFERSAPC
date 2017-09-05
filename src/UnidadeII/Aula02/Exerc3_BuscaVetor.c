@@ -4,7 +4,7 @@
 #include <stdio.h>
 #define N 10
 
-int main() {
+int mainBuscaVetor() {
 	int i, n, pos, chave = 7, chunk;
 	int v[N];
 	for (i = 0; i < N; i++)

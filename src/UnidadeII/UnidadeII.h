@@ -12,20 +12,52 @@
 extern "C" {
 #endif
 
-// Exemplos
+// Aula 01
+//  Exemplos
 int mainExemplo();
 int mainHelloWorld();
 int mainProdutoVetores();
 int mainAdicaoVetores();
 
-// Exercicios
+//  Exercícios
 int main5Threads();
 int mainVetorEscalar();
 int mainSomaThreads();
 int mainSomaElemVet();
+//  ------------------
 
-//      Aula 02
+
+// Aula 02
+//  Exemplos
+
+int mainSingle();
+int mainSingleComb();
+int mainModifXCritical();
+
+//  Exercícios
+int mainSomSubVet();
+int mainCorridaBarrier();
+int mainBuscaVetor();
 int mainVetThOrd();
+//  ------------------
+
+
+// Aula 03
+//  Exemplos
+int mainVarAmbFor();
+int mainVarAmbDouble();
+
+//  Exercícios
+int main4Threads();
+//  ------------------
+
+
+// Aula 04
+//  Exercícios
+int mainNumArbThreads();
+int mainPedPapTes();
+//  ------------------
+
 
 #ifdef	__cplusplus
 }

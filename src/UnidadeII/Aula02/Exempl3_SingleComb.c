@@ -4,7 +4,8 @@
 #include <stdio.h>
 #define VAR 1
 #define N 10
-int main() {
+
+int mainSingleComb() {
 	int i, n, var;
 	float a[N], b[N], c[N];
 	for (i = 0; i < N; i++)

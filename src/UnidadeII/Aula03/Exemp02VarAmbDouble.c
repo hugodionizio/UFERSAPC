@@ -1,7 +1,7 @@
 #include <omp.h>
 #include <stdio.h>
 
-int main() {
+int mainVarAmbDouble() {
 	double area, pi, x;
 	int i, n;
 

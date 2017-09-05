@@ -8,7 +8,7 @@
 #define PAPEL 1
 #define TESOURA 2
 
-int main() {
+int mainPedPapTes() {
 	int tid;
 	int jogador1, jogador2;
 
