@@ -56,9 +56,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o \
 	${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o \
 	${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o \
-	${OBJECTDIR}/src/UnidadeII/Aula04/Exe01ThreadaMenCol.o \
-	${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o \
-	${OBJECTDIR}/src/UnidadeII/Aula04/ValorPi.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o \
+	${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o \
 	${OBJECTDIR}/src/main.o
 
 
@@ -191,20 +191,20 @@ ${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o: src/UnidadeII/Aula03/
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o src/UnidadeII/Aula03/Exer03_MaxComBarreira.c
 
-${OBJECTDIR}/src/UnidadeII/Aula04/Exe01ThreadaMenCol.o: src/UnidadeII/Aula04/Exe01ThreadaMenCol.c 
+${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o: src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe01ThreadaMenCol.o src/UnidadeII/Aula04/Exe01ThreadaMenCol.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c
 
-${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o: src/UnidadeII/Aula04/Exe02PedPapTes.c 
+${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o: src/UnidadeII/Aula04/Exer02_PedPapTes.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exe02PedPapTes.o src/UnidadeII/Aula04/Exe02PedPapTes.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o src/UnidadeII/Aula04/Exer02_PedPapTes.c
 
-${OBJECTDIR}/src/UnidadeII/Aula04/ValorPi.o: src/UnidadeII/Aula04/ValorPi.c 
+${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o: src/UnidadeII/Aula04/Exer03_ValorPi.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/ValorPi.o src/UnidadeII/Aula04/ValorPi.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o src/UnidadeII/Aula04/Exer03_ValorPi.c
 
 ${OBJECTDIR}/src/main.o: src/main.c 
 	${MKDIR} -p ${OBJECTDIR}/src

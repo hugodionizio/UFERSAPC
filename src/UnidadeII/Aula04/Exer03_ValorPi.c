@@ -10,7 +10,6 @@ int mainValorPi() {
     int in = 0, out = 0;
     
     double d, x, y, pi;
-    long d, x, y, pi;
     long long cont = 10516267;
     while (cont-->0) {
         x = (double) rand() / (double)INT_MAX;

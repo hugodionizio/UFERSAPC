@@ -10,7 +10,6 @@ int mainVarAmbFor() {
         
 	int n = N;
 	#pragma omp parallel for private(i) default(shared)
-
 		for (i = 0; i < n; i++) {
 			tmp = a[i] / b[i];
 			c[i] = tmp * tmp;

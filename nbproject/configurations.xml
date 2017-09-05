@@ -39,9 +39,9 @@
             <itemPath>src/UnidadeII/Aula03/Exer03_MaxComBarreira.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="Aula04" projectFiles="true">
-            <itemPath>src/UnidadeII/Aula04/Exe01ThreadaMenCol.c</itemPath>
-            <itemPath>src/UnidadeII/Aula04/Exe02PedPapTes.c</itemPath>
-            <itemPath>src/UnidadeII/Aula04/ValorPi.c</itemPath>
+            <itemPath>src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c</itemPath>
+            <itemPath>src/UnidadeII/Aula04/Exer02_PedPapTes.c</itemPath>
+            <itemPath>src/UnidadeII/Aula04/Exer03_ValorPi.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>src/main.c</itemPath>
@@ -181,17 +181,20 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exe01ThreadaMenCol.c"
+      <item path="src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exe02PedPapTes.c"
+      <item path="src/UnidadeII/Aula04/Exer02_PedPapTes.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/ValorPi.c" ex="false" tool="0" flavor2="0">
+      <item path="src/UnidadeII/Aula04/Exer03_ValorPi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -323,17 +326,20 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exe01ThreadaMenCol.c"
+      <item path="src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exe02PedPapTes.c"
+      <item path="src/UnidadeII/Aula04/Exer02_PedPapTes.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/ValorPi.c" ex="false" tool="0" flavor2="0">
+      <item path="src/UnidadeII/Aula04/Exer03_ValorPi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
