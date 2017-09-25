@@ -2,9 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "UnidadeII/UnidadeII.h"
+#include "UnidadeIII/UnidadeIII.h"
+
+#define UNIDADE_III
 
 int main(int argc, char *argv) {
 
+#ifdef UNIDADE_III
     // Aula 01
     //  Exemplos
     printf("Aula 01. Exemplo 1 - Estrutura de um OpenMP:\n");
@@ -78,7 +82,7 @@ int main(int argc, char *argv) {
     printf("Aula 04. Exercício 3 - Valor de Pi através do OpenMP:\n");
     mainValorPi();
     //------------------------------------------------------------------------
-
+#endif
 
     return (0);
 }

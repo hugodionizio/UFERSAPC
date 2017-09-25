@@ -5,6 +5,7 @@
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
       <itemPath>src/UnidadeII/UnidadeII.h</itemPath>
+      <itemPath>src/UnidadeIII/UnidadeIII.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
@@ -42,6 +43,11 @@
             <itemPath>src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c</itemPath>
             <itemPath>src/UnidadeII/Aula04/Exer02_PedPapTes.c</itemPath>
             <itemPath>src/UnidadeII/Aula04/Exer03_ValorPi.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="UnidadeIII" projectFiles="true">
+          <logicalFolder name="f1" displayName="Aula01" projectFiles="true">
+            <itemPath>src/UnidadeIII/Aula01/exerc1_Busca.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>src/main.c</itemPath>
@@ -198,6 +204,13 @@
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="src/UnidadeIII/Aula01/exerc1_Busca.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/UnidadeIII.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -342,6 +355,13 @@
             flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc1_Busca.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/UnidadeIII.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/main.c" ex="false" tool="0" flavor2="0">
       </item>

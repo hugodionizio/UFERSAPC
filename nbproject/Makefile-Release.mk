@@ -59,6 +59,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o \
 	${OBJECTDIR}/src/main.o
 
 
@@ -205,6 +206,11 @@ ${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o: src/UnidadeII/Aula04/Exer03_
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o src/UnidadeII/Aula04/Exer03_ValorPi.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o: src/UnidadeIII/Aula01/exerc1_Busca.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o src/UnidadeIII/Aula01/exerc1_Busca.c
 
 ${OBJECTDIR}/src/main.o: src/main.c 
 	${MKDIR} -p ${OBJECTDIR}/src
