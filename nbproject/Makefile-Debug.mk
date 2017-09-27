@@ -60,11 +60,15 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o \
 	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc2_HelloParcial.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc3_MenorValor.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc5_MediaVetor.o \
 	${OBJECTDIR}/src/main.o
 
 
 # C Compiler Flags
-CFLAGS=-fopenmp
+CFLAGS=
 
 # CC Compiler Flags
 CCFLAGS=
@@ -90,132 +94,152 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ufersapc.exe: ${OBJECTFILES}
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp1_Estrutura.o: src/UnidadeII/Aula01/Exemp1_Estrutura.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp1_Estrutura.o src/UnidadeII/Aula01/Exemp1_Estrutura.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp1_Estrutura.o src/UnidadeII/Aula01/Exemp1_Estrutura.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp2_HelloWorld.o: src/UnidadeII/Aula01/Exemp2_HelloWorld.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp2_HelloWorld.o src/UnidadeII/Aula01/Exemp2_HelloWorld.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp2_HelloWorld.o src/UnidadeII/Aula01/Exemp2_HelloWorld.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp3_ProdVet.o: src/UnidadeII/Aula01/Exemp3_ProdVet.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp3_ProdVet.o src/UnidadeII/Aula01/Exemp3_ProdVet.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp3_ProdVet.o src/UnidadeII/Aula01/Exemp3_ProdVet.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp4_AdVet.o: src/UnidadeII/Aula01/Exemp4_AdVet.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp4_AdVet.o src/UnidadeII/Aula01/Exemp4_AdVet.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exemp4_AdVet.o src/UnidadeII/Aula01/Exemp4_AdVet.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc1_5threads.o: src/UnidadeII/Aula01/Exerc1_5threads.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc1_5threads.o src/UnidadeII/Aula01/Exerc1_5threads.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc1_5threads.o src/UnidadeII/Aula01/Exerc1_5threads.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc2_Escalar.o: src/UnidadeII/Aula01/Exerc2_Escalar.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc2_Escalar.o src/UnidadeII/Aula01/Exerc2_Escalar.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc2_Escalar.o src/UnidadeII/Aula01/Exerc2_Escalar.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc3_SomaThreads.o: src/UnidadeII/Aula01/Exerc3_SomaThreads.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc3_SomaThreads.o src/UnidadeII/Aula01/Exerc3_SomaThreads.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc3_SomaThreads.o src/UnidadeII/Aula01/Exerc3_SomaThreads.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc4_SomaElemVet.o: src/UnidadeII/Aula01/Exerc4_SomaElemVet.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc4_SomaElemVet.o src/UnidadeII/Aula01/Exerc4_SomaElemVet.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula01/Exerc4_SomaElemVet.o src/UnidadeII/Aula01/Exerc4_SomaElemVet.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_AdVet.o: src/UnidadeII/Aula02/Exempl1_AdVet.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_AdVet.o src/UnidadeII/Aula02/Exempl1_AdVet.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_AdVet.o src/UnidadeII/Aula02/Exempl1_AdVet.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_Single.o: src/UnidadeII/Aula02/Exempl1_Single.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_Single.o src/UnidadeII/Aula02/Exempl1_Single.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl1_Single.o src/UnidadeII/Aula02/Exempl1_Single.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl3_SingleComb.o: src/UnidadeII/Aula02/Exempl3_SingleComb.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl3_SingleComb.o src/UnidadeII/Aula02/Exempl3_SingleComb.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl3_SingleComb.o src/UnidadeII/Aula02/Exempl3_SingleComb.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl4_ModifXCritical.o: src/UnidadeII/Aula02/Exempl4_ModifXCritical.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl4_ModifXCritical.o src/UnidadeII/Aula02/Exempl4_ModifXCritical.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exempl4_ModifXCritical.o src/UnidadeII/Aula02/Exempl4_ModifXCritical.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc1_SomSubVet.o: src/UnidadeII/Aula02/Exerc1_SomSubVet.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc1_SomSubVet.o src/UnidadeII/Aula02/Exerc1_SomSubVet.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc1_SomSubVet.o src/UnidadeII/Aula02/Exerc1_SomSubVet.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc2_CorridaBarrier.o: src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc2_CorridaBarrier.o src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc2_CorridaBarrier.o src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o: src/UnidadeII/Aula02/Exerc3_BuscaVetor.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o src/UnidadeII/Aula02/Exerc3_BuscaVetor.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc3_BuscaVetor.o src/UnidadeII/Aula02/Exerc3_BuscaVetor.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o: src/UnidadeII/Aula02/Exerc4_VetThrOrd.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula02
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o src/UnidadeII/Aula02/Exerc4_VetThrOrd.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula02/Exerc4_VetThrOrd.o src/UnidadeII/Aula02/Exerc4_VetThrOrd.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o: src/UnidadeII/Aula03/Exemp01VarAmbFor.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o src/UnidadeII/Aula03/Exemp01VarAmbFor.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp01VarAmbFor.o src/UnidadeII/Aula03/Exemp01VarAmbFor.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02ValPiArea.o: src/UnidadeII/Aula03/Exemp02ValPiArea.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02ValPiArea.o src/UnidadeII/Aula03/Exemp02ValPiArea.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exemp02ValPiArea.o src/UnidadeII/Aula03/Exemp02ValPiArea.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o: src/UnidadeII/Aula03/Exer01_4Threads.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o src/UnidadeII/Aula03/Exer01_4Threads.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer01_4Threads.o src/UnidadeII/Aula03/Exer01_4Threads.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o: src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer02_ParaleloSemFor.o src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o: src/UnidadeII/Aula03/Exer03_MaxComBarreira.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula03
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o src/UnidadeII/Aula03/Exer03_MaxComBarreira.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula03/Exer03_MaxComBarreira.o src/UnidadeII/Aula03/Exer03_MaxComBarreira.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o: src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer01_ThreadaMenCol.o src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o: src/UnidadeII/Aula04/Exer02_PedPapTes.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o src/UnidadeII/Aula04/Exer02_PedPapTes.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o src/UnidadeII/Aula04/Exer02_PedPapTes.c
 
 ${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o: src/UnidadeII/Aula04/Exer03_ValorPi.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeII/Aula04
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o src/UnidadeII/Aula04/Exer03_ValorPi.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o src/UnidadeII/Aula04/Exer03_ValorPi.c
 
 ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o: src/UnidadeIII/Aula01/exerc1_Busca.c 
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o src/UnidadeIII/Aula01/exerc1_Busca.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o src/UnidadeIII/Aula01/exerc1_Busca.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc2_HelloParcial.o: src/UnidadeIII/Aula01/exerc2_HelloParcial.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc2_HelloParcial.o src/UnidadeIII/Aula01/exerc2_HelloParcial.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc3_MenorValor.o: src/UnidadeIII/Aula01/exerc3_MenorValor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc3_MenorValor.o src/UnidadeIII/Aula01/exerc3_MenorValor.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.o: src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.o src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc5_MediaVetor.o: src/UnidadeIII/Aula01/exerc5_MediaVetor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc5_MediaVetor.o src/UnidadeIII/Aula01/exerc5_MediaVetor.c
 
 ${OBJECTDIR}/src/main.o: src/main.c 
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/main.o src/main.c
+	$(COMPILE.c) -g -include ../../../../../../../cygwin64/usr/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/main.o src/main.c
 
 # Subprojects
 .build-subprojects:

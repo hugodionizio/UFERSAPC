@@ -20,17 +20,13 @@ int main(int argc, char **argv) {
 	MPI_Comm_size(MPI_COMM_WORLD, &size);
 	
 	if(rank == 0) {
-		MPI_Send(&arg1, sizeof(arg1), MPI_CHAR, 1, 0, 
-MPI_COMM_WORLD);
-		MPI_Send(&arg2, sizeof(arg2), MPI_CHAR, 1, 1, 
-MPI_COMM_WORLD);
+		MPI_Send(&arg1, sizeof(arg1), MPI_CHAR, 1, 0, MPI_COMM_WORLD);
+		MPI_Send(&arg2, sizeof(arg2), MPI_CHAR, 1, 1, MPI_COMM_WORLD);
 	}
 
 	if(rank == 1) {
-		MPI_Recv(&arg1, sizeof(arg1), MPI_CHAR, 0, 1, 
-MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-		MPI_Recv(&arg2, sizeof(arg2), MPI_CHAR, 0, 0, 
-MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+		MPI_Recv(&arg1, sizeof(arg1), MPI_CHAR, 0, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+		MPI_Recv(&arg2, sizeof(arg2), MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 	}
 
 	MPI_Finalize();

@@ -48,6 +48,10 @@
         <logicalFolder name="f2" displayName="UnidadeIII" projectFiles="true">
           <logicalFolder name="f1" displayName="Aula01" projectFiles="true">
             <itemPath>src/UnidadeIII/Aula01/exerc1_Busca.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula01/exerc2_HelloParcial.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula01/exerc3_MenorValor.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula01/exerc5_MediaVetor.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>src/main.c</itemPath>
@@ -79,7 +83,10 @@
       </toolsSet>
       <compileType>
         <cTool>
-          <commandLine>-fopenmp</commandLine>
+          <commandlineTool>gcc</commandlineTool>
+          <incFile>
+            <pElem>../../../../../../../cygwin64/usr/include</pElem>
+          </incFile>
         </cTool>
       </compileType>
       <item path="src/UnidadeII/Aula01/Exemp1_Estrutura.c"
@@ -205,6 +212,26 @@
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/UnidadeIII/Aula01/exerc1_Busca.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc2_HelloParcial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc3_MenorValor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc5_MediaVetor.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -357,6 +384,26 @@
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/UnidadeIII/Aula01/exerc1_Busca.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc2_HelloParcial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc3_MenorValor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula01/exerc5_MediaVetor.c"
             ex="false"
             tool="0"
             flavor2="0">

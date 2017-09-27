@@ -60,6 +60,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer02_PedPapTes.o \
 	${OBJECTDIR}/src/UnidadeII/Aula04/Exer03_ValorPi.o \
 	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc2_HelloParcial.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc3_MenorValor.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.o \
+	${OBJECTDIR}/src/UnidadeIII/Aula01/exerc5_MediaVetor.o \
 	${OBJECTDIR}/src/main.o
 
 
@@ -211,6 +215,26 @@ ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o: src/UnidadeIII/Aula01/exerc1_
 	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc1_Busca.o src/UnidadeIII/Aula01/exerc1_Busca.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc2_HelloParcial.o: src/UnidadeIII/Aula01/exerc2_HelloParcial.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc2_HelloParcial.o src/UnidadeIII/Aula01/exerc2_HelloParcial.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc3_MenorValor.o: src/UnidadeIII/Aula01/exerc3_MenorValor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc3_MenorValor.o src/UnidadeIII/Aula01/exerc3_MenorValor.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.o: src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.o src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c
+
+${OBJECTDIR}/src/UnidadeIII/Aula01/exerc5_MediaVetor.o: src/UnidadeIII/Aula01/exerc5_MediaVetor.c 
+	${MKDIR} -p ${OBJECTDIR}/src/UnidadeIII/Aula01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/UnidadeIII/Aula01/exerc5_MediaVetor.o src/UnidadeIII/Aula01/exerc5_MediaVetor.c
 
 ${OBJECTDIR}/src/main.o: src/main.c 
 	${MKDIR} -p ${OBJECTDIR}/src
