@@ -9,7 +9,16 @@
             <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>src/UnidadeIII/Aula10</sourceRootElem>
+                <sourceRootElem>src/UnidadeIII/Aula11</sourceRootElem>
+                <sourceRootElem>src/UnidadeIII/Aula12</sourceRootElem>
+                <sourceRootElem>src/UnidadeIII/TrabalhoIII</sourceRootElem>
+                <sourceRootElem>src/UnidadeII/Aula06</sourceRootElem>
+                <sourceRootElem>src/UnidadeII/Aula07</sourceRootElem>
+                <sourceRootElem>src/UnidadeII/Aula08</sourceRootElem>
+                <sourceRootElem>src/UnidadeII/Aula09</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>Debug</name>

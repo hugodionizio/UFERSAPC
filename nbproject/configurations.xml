@@ -12,46 +12,60 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="src" projectFiles="true">
         <logicalFolder name="f1" displayName="UnidadeII" projectFiles="true">
-          <logicalFolder name="f4" displayName="Aula01" projectFiles="true">
-            <itemPath>src/UnidadeII/Aula01/Exemp1_Estrutura.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exemp2_HelloWorld.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exemp3_ProdVet.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exemp4_AdVet.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exerc1_5threads.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exerc2_Escalar.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exerc3_SomaThreads.c</itemPath>
-            <itemPath>src/UnidadeII/Aula01/Exerc4_SomaElemVet.c</itemPath>
+          <logicalFolder name="Aula06" displayName="Aula06" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula06/Exemp1_Estrutura.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exemp2_HelloWorld.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exemp3_ProdVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exemp4_AdVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exerc1_5threads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exerc2_Escalar.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exerc3_SomaThreads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula06/Exerc4_SomaElemVet.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f1" displayName="Aula02" projectFiles="true">
-            <itemPath>src/UnidadeII/Aula02/Exempl1_AdVet.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exempl1_Single.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exempl3_SingleComb.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exempl4_ModifXCritical.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exerc1_SomSubVet.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exerc3_BuscaVetor.c</itemPath>
-            <itemPath>src/UnidadeII/Aula02/Exerc4_VetThrOrd.c</itemPath>
+          <logicalFolder name="Aula07" displayName="Aula07" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula07/Exempl1_AdVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exempl1_Single.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exempl3_SingleComb.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exempl4_ModifXCritical.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exerc1_SomSubVet.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exerc2_CorridaBarrier.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exerc3_BuscaVetor.c</itemPath>
+            <itemPath>src/UnidadeII/Aula07/Exerc4_VetThrOrd.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f2" displayName="Aula03" projectFiles="true">
-            <itemPath>src/UnidadeII/Aula03/Exemp01VarAmbFor.c</itemPath>
-            <itemPath>src/UnidadeII/Aula03/Exemp02ValPiArea.c</itemPath>
-            <itemPath>src/UnidadeII/Aula03/Exer01_4Threads.c</itemPath>
-            <itemPath>src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c</itemPath>
-            <itemPath>src/UnidadeII/Aula03/Exer03_MaxComBarreira.c</itemPath>
+          <logicalFolder name="Aula08" displayName="Aula08" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula08/Exemp01VarAmbFor.c</itemPath>
+            <itemPath>src/UnidadeII/Aula08/Exemp02ValPiArea.c</itemPath>
+            <itemPath>src/UnidadeII/Aula08/Exer01_4Threads.c</itemPath>
+            <itemPath>src/UnidadeII/Aula08/Exer02_ParaleloSemFor.c</itemPath>
+            <itemPath>src/UnidadeII/Aula08/Exer03_MaxComBarreira.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f3" displayName="Aula04" projectFiles="true">
-            <itemPath>src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c</itemPath>
-            <itemPath>src/UnidadeII/Aula04/Exer02_PedPapTes.c</itemPath>
-            <itemPath>src/UnidadeII/Aula04/Exer03_ValorPi.c</itemPath>
+          <logicalFolder name="Aula09" displayName="Aula09" projectFiles="true">
+            <itemPath>src/UnidadeII/Aula09/Exer01_ThreadaMenCol.c</itemPath>
+            <itemPath>src/UnidadeII/Aula09/Exer02_PedPapTes.c</itemPath>
+            <itemPath>src/UnidadeII/Aula09/Exer03_ValorPi.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="f2" displayName="UnidadeIII" projectFiles="true">
-          <logicalFolder name="f1" displayName="Aula01" projectFiles="true">
-            <itemPath>src/UnidadeIII/Aula01/exerc1_Busca.c</itemPath>
-            <itemPath>src/UnidadeIII/Aula01/exerc2_HelloParcial.c</itemPath>
-            <itemPath>src/UnidadeIII/Aula01/exerc3_MenorValor.c</itemPath>
-            <itemPath>src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c</itemPath>
-            <itemPath>src/UnidadeIII/Aula01/exerc5_MediaVetor.c</itemPath>
+          <logicalFolder name="Aula10" displayName="Aula10" projectFiles="true">
+            <itemPath>src/UnidadeIII/Aula10/Exemp1_HelloWorld.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula10/Exerc1_Busca.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula10/Exerc2_HelloParcial.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula10/Exerc3_MenorValor.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula10/Exerc4_MenorValorComMaster.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula10/Exerc5_MediaVetor.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Aula11" displayName="Aula11" projectFiles="true">
+            <itemPath>src/UnidadeIII/Aula11/Exemp1_EnvRecMsg.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula11/Exemp2_ConfEnvRec.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Aula12" displayName="Aula12" projectFiles="true">
+            <itemPath>src/UnidadeIII/Aula12/Exemp1_Broadcast.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula12/Exemp2_Gather.c</itemPath>
+            <itemPath>src/UnidadeIII/Aula12/Exerc1_Media.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="TrabalhoIII" displayName="TrabalhoIII" projectFiles="true">
+            <itemPath>src/UnidadeIII/TrabalhoIII/PiParalelo.c</itemPath>
+            <itemPath>src/UnidadeIII/TrabalhoIII/PiSequencial.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>src/main.c</itemPath>
@@ -73,6 +87,16 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>src/UnidadeIII/Aula10</Elem>
+    <Elem>src/UnidadeIII/Aula11</Elem>
+    <Elem>src/UnidadeIII/Aula12</Elem>
+    <Elem>src/UnidadeIII/TrabalhoIII</Elem>
+    <Elem>src/UnidadeII/Aula06</Elem>
+    <Elem>src/UnidadeII/Aula07</Elem>
+    <Elem>src/UnidadeII/Aula08</Elem>
+    <Elem>src/UnidadeII/Aula09</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
@@ -89,149 +113,189 @@
           </incFile>
         </cTool>
       </compileType>
-      <item path="src/UnidadeII/Aula01/Exemp1_Estrutura.c"
+      <item path="src/UnidadeII/Aula06/Exemp1_Estrutura.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exemp2_HelloWorld.c"
+      <item path="src/UnidadeII/Aula06/Exemp2_HelloWorld.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exemp3_ProdVet.c"
+      <item path="src/UnidadeII/Aula06/Exemp3_ProdVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exemp4_AdVet.c"
+      <item path="src/UnidadeII/Aula06/Exemp4_AdVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc1_5threads.c"
+      <item path="src/UnidadeII/Aula06/Exerc1_5threads.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc2_Escalar.c"
+      <item path="src/UnidadeII/Aula06/Exerc2_Escalar.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc3_SomaThreads.c"
+      <item path="src/UnidadeII/Aula06/Exerc3_SomaThreads.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc4_SomaElemVet.c"
+      <item path="src/UnidadeII/Aula06/Exerc4_SomaElemVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl1_AdVet.c"
+      <item path="src/UnidadeII/Aula07/Exempl1_AdVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl1_Single.c"
+      <item path="src/UnidadeII/Aula07/Exempl1_Single.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl3_SingleComb.c"
+      <item path="src/UnidadeII/Aula07/Exempl3_SingleComb.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl4_ModifXCritical.c"
+      <item path="src/UnidadeII/Aula07/Exempl4_ModifXCritical.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc1_SomSubVet.c"
+      <item path="src/UnidadeII/Aula07/Exerc1_SomSubVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c"
+      <item path="src/UnidadeII/Aula07/Exerc2_CorridaBarrier.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc3_BuscaVetor.c"
+      <item path="src/UnidadeII/Aula07/Exerc3_BuscaVetor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc4_VetThrOrd.c"
+      <item path="src/UnidadeII/Aula07/Exerc4_VetThrOrd.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exemp01VarAmbFor.c"
+      <item path="src/UnidadeII/Aula08/Exemp01VarAmbFor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exemp02ValPiArea.c"
+      <item path="src/UnidadeII/Aula08/Exemp02ValPiArea.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exer01_4Threads.c"
+      <item path="src/UnidadeII/Aula08/Exer01_4Threads.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c"
+      <item path="src/UnidadeII/Aula08/Exer02_ParaleloSemFor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exer03_MaxComBarreira.c"
+      <item path="src/UnidadeII/Aula08/Exer03_MaxComBarreira.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c"
+      <item path="src/UnidadeII/Aula09/Exer01_ThreadaMenCol.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exer02_PedPapTes.c"
+      <item path="src/UnidadeII/Aula09/Exer02_PedPapTes.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exer03_ValorPi.c"
+      <item path="src/UnidadeII/Aula09/Exer03_ValorPi.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc1_Busca.c"
+      <item path="src/UnidadeIII/Aula10/Exemp1_HelloWorld.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc2_HelloParcial.c"
+      <item path="src/UnidadeIII/Aula10/Exerc1_Busca.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc3_MenorValor.c"
+      <item path="src/UnidadeIII/Aula10/Exerc2_HelloParcial.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c"
+      <item path="src/UnidadeIII/Aula10/Exerc3_MenorValor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc5_MediaVetor.c"
+      <item path="src/UnidadeIII/Aula10/Exerc4_MenorValorComMaster.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula10/Exerc5_MediaVetor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula11/Exemp1_EnvRecMsg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula11/Exemp2_ConfEnvRec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula12/Exemp1_Broadcast.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula12/Exemp2_Gather.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula12/Exerc1_Media.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/TrabalhoIII/PiParalelo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/TrabalhoIII/PiSequencial.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -261,149 +325,189 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="src/UnidadeII/Aula01/Exemp1_Estrutura.c"
+      <item path="src/UnidadeII/Aula06/Exemp1_Estrutura.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exemp2_HelloWorld.c"
+      <item path="src/UnidadeII/Aula06/Exemp2_HelloWorld.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exemp3_ProdVet.c"
+      <item path="src/UnidadeII/Aula06/Exemp3_ProdVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exemp4_AdVet.c"
+      <item path="src/UnidadeII/Aula06/Exemp4_AdVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc1_5threads.c"
+      <item path="src/UnidadeII/Aula06/Exerc1_5threads.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc2_Escalar.c"
+      <item path="src/UnidadeII/Aula06/Exerc2_Escalar.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc3_SomaThreads.c"
+      <item path="src/UnidadeII/Aula06/Exerc3_SomaThreads.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula01/Exerc4_SomaElemVet.c"
+      <item path="src/UnidadeII/Aula06/Exerc4_SomaElemVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl1_AdVet.c"
+      <item path="src/UnidadeII/Aula07/Exempl1_AdVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl1_Single.c"
+      <item path="src/UnidadeII/Aula07/Exempl1_Single.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl3_SingleComb.c"
+      <item path="src/UnidadeII/Aula07/Exempl3_SingleComb.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exempl4_ModifXCritical.c"
+      <item path="src/UnidadeII/Aula07/Exempl4_ModifXCritical.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc1_SomSubVet.c"
+      <item path="src/UnidadeII/Aula07/Exerc1_SomSubVet.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc2_CorridaBarrier.c"
+      <item path="src/UnidadeII/Aula07/Exerc2_CorridaBarrier.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc3_BuscaVetor.c"
+      <item path="src/UnidadeII/Aula07/Exerc3_BuscaVetor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula02/Exerc4_VetThrOrd.c"
+      <item path="src/UnidadeII/Aula07/Exerc4_VetThrOrd.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exemp01VarAmbFor.c"
+      <item path="src/UnidadeII/Aula08/Exemp01VarAmbFor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exemp02ValPiArea.c"
+      <item path="src/UnidadeII/Aula08/Exemp02ValPiArea.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exer01_4Threads.c"
+      <item path="src/UnidadeII/Aula08/Exer01_4Threads.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exer02_ParaleloSemFor.c"
+      <item path="src/UnidadeII/Aula08/Exer02_ParaleloSemFor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula03/Exer03_MaxComBarreira.c"
+      <item path="src/UnidadeII/Aula08/Exer03_MaxComBarreira.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exer01_ThreadaMenCol.c"
+      <item path="src/UnidadeII/Aula09/Exer01_ThreadaMenCol.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exer02_PedPapTes.c"
+      <item path="src/UnidadeII/Aula09/Exer02_PedPapTes.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeII/Aula04/Exer03_ValorPi.c"
+      <item path="src/UnidadeII/Aula09/Exer03_ValorPi.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
       <item path="src/UnidadeII/UnidadeII.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc1_Busca.c"
+      <item path="src/UnidadeIII/Aula10/Exemp1_HelloWorld.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc2_HelloParcial.c"
+      <item path="src/UnidadeIII/Aula10/Exerc1_Busca.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc3_MenorValor.c"
+      <item path="src/UnidadeIII/Aula10/Exerc2_HelloParcial.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc4_MenorValorComMaster.c"
+      <item path="src/UnidadeIII/Aula10/Exerc3_MenorValor.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="src/UnidadeIII/Aula01/exerc5_MediaVetor.c"
+      <item path="src/UnidadeIII/Aula10/Exerc4_MenorValorComMaster.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula10/Exerc5_MediaVetor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula11/Exemp1_EnvRecMsg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula11/Exemp2_ConfEnvRec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula12/Exemp1_Broadcast.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula12/Exemp2_Gather.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/Aula12/Exerc1_Media.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/TrabalhoIII/PiParalelo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/UnidadeIII/TrabalhoIII/PiSequencial.c"
             ex="false"
             tool="0"
             flavor2="0">

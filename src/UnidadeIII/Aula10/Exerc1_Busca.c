@@ -1,3 +1,5 @@
+// Código 1 - Buscar um elemento em partes de um vetor
+
 #include <stdio.h>
 #include <mpi.h>
 
